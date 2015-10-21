@@ -1,0 +1,38 @@
+<header>
+    <a href="/" class="logo"></a>
+    <span></span>
+</header>
+
+<nav>
+    <ul class="navbar">
+        <% if (label === 'index') {%>
+            <li class="active"><a href="/">首页</a></li>
+        <%} else {%>
+            <li><a href="/">首页</a></li>
+        <% } %>
+        <span>|</span>
+        <% if (label === 'product') {%>
+            <li class="active"><a href="/product">产品介绍</a></li>
+        <%} else {%>
+            <li><a href="/product">产品介绍</a></li>
+        <% } %>
+        <span>|</span>
+        <% if (label === 'agentsearch') {%>
+            <li class="active"><a href="/agentsearch">代理查询</a></li>
+        <%} else {%>
+            <li><a href="/agentsearch">代理查询</a></li>
+        <% } %>
+        <span>|</span>
+        <% if (label === 'instruction') {%>
+            <li class="active"><a href="/instruction">使用说明</a></li>
+        <%} else {%>
+            <li><a href="/instruction">使用说明</a></li>
+        <% } %>
+        <span>|</span>
+        <% if (label === 'certification') {%>
+            <li class="active"><a href="/certification">权威认证</a></li>
+        <%} else {%>
+            <li><a href="/certification">权威认证</a></li>
+        <% } %>
+    </ul>
+</nav>
