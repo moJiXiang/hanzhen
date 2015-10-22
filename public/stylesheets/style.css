@@ -135,3 +135,47 @@ footer h4 {
     border-width: 5px 0 5px 8.7px;
     border-color: transparent transparent transparent #fafafa;
 }
+
+/*searchagent stylesheet*/
+.agentsearch {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    background: url('/images/agentsearch.jpg');
+}
+
+.inputtext {
+    position: absolute;
+    top: 218px;
+    left: 295px;
+    width: 411px;
+    height: 62px;
+    background: url('/images/searchbg.png');
+    border: none;
+    text-indent: 20px;
+    outline: none;
+}
+
+.searchbtn {
+    position: absolute;
+    top: 221px;
+    right: 149px;
+    width: 122px;
+    height: 52px;
+    background: url('/images/buttonbg.png');
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.searchresult {
+    width: 1000px;
+    height: 600px;
+    line-height: 400px;
+    background: url('/images/searchresult.png');
+}
+
+.searchresult p {
+    display: inline-block;
+    text-indent: 100px;
+}

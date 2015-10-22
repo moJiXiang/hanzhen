@@ -17,6 +17,12 @@ router.get('/agentsearch', function(req, res) {
   res.render('agentsearch');
 });
 
+router.post('/agentsearch', function(req, res) {
+    var name = req.body.name
+    res.locals.label = 'agentsearch';
+    res.render('searchresult', {result: name});
+})
+
 router.get('/instruction', function(req, res) {
     res.locals.label = 'instruction';
   res.render('instruction');

@@ -6,7 +6,12 @@
   <body>
     <% include ./partials/header.ejs %>
     <main>
-        <img src="/images/agentsearch.jpg" alt="">
+        <div class="agentsearch">
+            <form method="POST" action="">
+                <input type="text" class="inputtext" name="name" placeholder="输入授权网店微信号">
+                <input type="submit" class="searchbtn" value="">
+            </form>
+        </div>
     </main>
     <% include ./partials/footer.ejs %>
   </body>
