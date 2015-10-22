@@ -19,8 +19,21 @@ router.get('/agentsearch', function(req, res) {
 
 router.post('/agentsearch', function(req, res) {
     var name = req.body.name
+    var valiableshops = ['wypmm1111']
+    var isTrueShop = valiableshops.indexOf(name);
     res.locals.label = 'agentsearch';
-    res.render('searchresult', {result: name});
+    if (isTrueShop < 0) {
+        var result = {
+            result: name,
+            isTrue: false
+        }
+    } else {
+        var result = {
+            result: name,
+            isTrue: true
+        }
+    }
+    res.render('searchresult', result);
 })
 
 router.get('/instruction', function(req, res) {

@@ -7,7 +7,11 @@
     <% include ./partials/header.ejs %>
     <main>
         <div class="searchresult">
-            <p><%= result %></p>
+            <% if(isTrue) {%>
+                <p><i><%= result %></i>店铺为正规授权店铺，所出售商品为正品商品，请放心购买。</p>
+            <% } else {%>
+                <p><i><%= result %></i>店铺非正规授权店铺，所出售商品可能非本公司正规产品，请谨慎购买!</p>
+            <% } %>
         </div>
     </main>
     <% include ./partials/footer.ejs %>
