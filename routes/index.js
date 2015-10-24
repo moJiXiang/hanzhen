@@ -17,24 +17,24 @@ router.get('/agentsearch', function(req, res) {
   res.render('agentsearch');
 });
 
-router.post('/agentsearch', function(req, res) {
-    var name = req.body.name
-    var valiableshops = ['wypmm1111']
-    var isTrueShop = valiableshops.indexOf(name);
-    res.locals.label = 'agentsearch';
-    if (isTrueShop < 0) {
-        var result = {
-            result: name,
-            isTrue: false
-        }
-    } else {
-        var result = {
-            result: name,
-            isTrue: true
-        }
-    }
-    res.render('searchresult', result);
-})
+// router.post('/agentsearch', function(req, res) {
+//     var name = req.body.name
+//     var valiableshops = ['wypmm1111']
+//     var isTrueShop = valiableshops.indexOf(name);
+//     res.locals.label = 'agentsearch';
+//     if (isTrueShop < 0) {
+//         var result = {
+//             result: name,
+//             isTrue: false
+//         }
+//     } else {
+//         var result = {
+//             result: name,
+//             isTrue: true
+//         }
+//     }
+//     res.render('searchresult', result);
+// })
 
 router.get('/instruction', function(req, res) {
     res.locals.label = 'instruction';
@@ -47,10 +47,12 @@ router.get('/certification', function(req, res) {
 });
 
 router.get('/qrcode', function(req, res) {
+    res.locals.label = '';
   res.render('qrcode');
 });
 
 router.get('/telephone', function(req, res) {
+    res.locals.label = '';
   res.render('telephone');
 });
 

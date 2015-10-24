@@ -7,12 +7,13 @@
     <% include ./partials/header.ejs %>
     <main>
         <div class="agentsearch">
-            <form method="POST" action="">
-                <input type="text" class="inputtext" name="name" placeholder="输入授权网店微信号">
-                <input type="submit" class="searchbtn" value="">
-            </form>
+            <div>
+                <input type="text" class="inputtext" id="agent" placeholder="输入授权网店微信号">
+                <input type="submit" class="searchbtn" value="" id="searchbtn">
+            </div>
         </div>
     </main>
     <% include ./partials/footer.ejs %>
   </body>
+  <script src="/javascripts/search.js"></script>
 </html>
