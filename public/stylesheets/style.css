@@ -6,7 +6,7 @@ main {
     overflow: hidden;
 }
 /*header css*/
-header {
+#header {
     height: 120px;
 }
 
@@ -17,14 +17,14 @@ header {
     background: url('/images/logo.png')
 }
 
-header span {
+#header span {
     float: right;
     width: 320px;
     height: 120px;
     background: url('/images/telephone.png')
 }
 
-nav {
+#nav {
     height: 38px;
     line-height: 38px;
     overflow: hidden;
@@ -59,12 +59,12 @@ nav {
 
 
 /*footer stylesheet*/
-footer {
+#footer {
     height: 180px;
     background: url('/images/footerbg.png') center;
 }
 
-footer h4 {
+#footer h4 {
     font-size: 20px;
     color: #60788a;
     font-weight: bold;
