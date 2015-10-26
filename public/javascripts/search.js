@@ -4,9 +4,9 @@ $(document).ready(function() {
         var valiableshops = ['wypmm1111']
         var isTrueShop = valiableshops.indexOf(agent);
         if(isTrueShop < 0) {
-            alert(agent + '  店铺非正规授权店铺，所出售商品可能非本公司正规产品，请谨慎购买!');
+            alert(agent + '  非汉珍御典中式男露代理，请谨慎购买其产品!');
         } else {
-            alert(agent + '  店铺为正规授权店铺，所出售商品为正品商品，请放心购买。');
+            alert(agent + '  为汉珍御典中式男露山东省总代理。');
         }
     })
 })
