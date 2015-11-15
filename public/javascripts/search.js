@@ -17,7 +17,15 @@ $(document).ready(function() {
             {"name": "mwd20150301", "where": "辽宁省总代理"},
             {"name": "cy257451", "where": "北京总代理"},
             {"name": "Adingjishangmao", "where": "河南省总代理"},
-            {"name": "A98981998", "where": "三级代理"}];
+            {"name": "A98981998", "where": "三级代理"},
+            {"name": "dyhh315", "where": "一级代理"},
+            {"name": "cy500600", "where": "黑龙江总代理"},
+            {"name": "138031131", "where": "湖南总代理"},
+            {"name": "zc800600", "where": "广东总代理"},
+            {"name": "xqqqeee", "where": "浙江总代理"},
+            {"name": "AC18881888888", "where": "江苏总代理"},
+            {"name": "xiefei0716", "where": "河北总代理"}
+        ];
 
         var isTrueShop, valiableshop;
         valiableshops.forEach(function(obj) {
