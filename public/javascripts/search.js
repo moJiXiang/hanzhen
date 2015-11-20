@@ -24,7 +24,8 @@ $(document).ready(function() {
             {"name": "zc800600", "where": "广东总代理"},
             {"name": "xqqqeee", "where": "浙江总代理"},
             {"name": "AC18881888888", "where": "江苏总代理"},
-            {"name": "xiefei0716", "where": "河北总代理"}
+            {"name": "xiefei0716", "where": "河北总代理"},
+            {"name": "xqt17888", "where": "山西总代理"}
         ];
 
         var isTrueShop, valiableshop;
