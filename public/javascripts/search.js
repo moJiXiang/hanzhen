@@ -25,7 +25,11 @@ $(document).ready(function() {
             {"name": "xqqqeee", "where": "浙江总代理"},
             {"name": "AC18881888888", "where": "江苏总代理"},
             {"name": "xiefei0716", "where": "河北总代理"},
-            {"name": "xqt17888", "where": "山西总代理"}
+            {"name": "xqt17888", "where": "山西总代理"},
+            {"name": "yesemei1234", "where": "汉珍御典中式官方运营"},
+            {"name": "ff1222w", "where": "汉珍御典中式男露官方运营"},
+            {"name": "ysm5216688", "where": "汉珍玉典中式男露官方运营"},
+            {"name": "wypmm111", "where": "汉珍御典中式男山东总代理"}
         ];
 
         var isTrueShop, valiableshop;
