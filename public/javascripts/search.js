@@ -29,7 +29,10 @@ $(document).ready(function() {
             {"name": "yesemei1234", "where": "汉珍御典中式官方运营"},
             {"name": "ff1222w", "where": "汉珍御典中式男露官方运营"},
             {"name": "ysm5216688", "where": "汉珍玉典中式男露官方运营"},
-            {"name": "wypmm111", "where": "汉珍御典中式男山东总代理"}
+            {"name": "wypmm111", "where": "汉珍御典中式男山东总代理"},
+            {"name": "18776799999", "where": "汉珍御典中式男广西总代理"},
+            {"name": "A98981998", "where": "汉珍御典中式男吉林总代理"},
+            {"name": "18776799999", "where": "汉珍御典中式男广西总代理"}
         ];
 
         var isTrueShop, valiableshop;
