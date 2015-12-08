@@ -26,13 +26,20 @@ $(document).ready(function() {
             {"name": "AC18881888888", "where": "江苏总代理"},
             {"name": "xiefei0716", "where": "河北总代理"},
             {"name": "xqt17888", "where": "山西总代理"},
-            {"name": "yesemei1234", "where": "汉珍御典中式官方运营"},
-            {"name": "ff1222w", "where": "汉珍御典中式男露官方运营"},
-            {"name": "ysm5216688", "where": "汉珍玉典中式男露官方运营"},
-            {"name": "wypmm111", "where": "汉珍御典中式男山东总代理"},
-            {"name": "18776799999", "where": "汉珍御典中式男广西总代理"},
-            {"name": "A98981998", "where": "汉珍御典中式男吉林总代理"},
-            {"name": "18776799999", "where": "汉珍御典中式男广西总代理"}
+            {"name": "yesemei1234", "where": "官方运营"},
+            {"name": "ff1222w", "where": "官方运营"},
+            {"name": "ysm5216688", "where": "官方运营"},
+            {"name": "wypmm111", "where": "山东总代理"},
+            {"name": "18776799999", "where": "广西总代理"},
+            {"name": "A98981998", "where": "吉林总代理"},
+            {"name": "18776799999", "where": "广西总代理"},
+            {"name": "whx20101116", "where": "分销"},
+            {"name": "L287147617", "where": "分销"},
+            {"name": "y386984895", "where": "分销"},
+            {"name": "s972730538", "where": "三级代理"},
+            {"name": "S065333", "where": "三级代理"},
+            {"name": "aiq89999", "where": "三级代理"},
+            {"name": "bao4455667788", "where": "三级代理"}
         ];
 
         var isTrueShop, valiableshop;
