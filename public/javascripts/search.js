@@ -13,7 +13,6 @@ $(document).ready(function() {
     function checkTrue(agent) {
 
         var valiableshops = [
-            {"name": 'wypmm1111', 'where': '山东省总代理'},
             {"name": "mwd20150301", "where": "辽宁省总代理"},
             {"name": "cy257451", "where": "北京总代理"},
             {"name": "Adingjishangmao", "where": "河南省总代理"},
