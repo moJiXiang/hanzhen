@@ -35,11 +35,13 @@ $(document).ready(function() {
             {"name": "18776799999", "where": "广西总代理"},
             {"name": "whx20101116", "where": "分销"},
             {"name": "L287147617", "where": "分销"},
-            {"name": "y386984895", "where": "分销"},
+            {"name": "15299755056", "where": "分销"},
             {"name": "s972730538", "where": "三级代理"},
             {"name": "S065333", "where": "三级代理"},
             {"name": "aiq89999", "where": "三级代理"},
-            {"name": "bao4455667788", "where": "三级代理"}
+            {"name": "bao4455667788", "where": "三级代理"},
+            {"name": "13721296968", "where": "安徽总代理"},
+            {"name": "chijiuai1314", "where": "一级代理"}
         ];
 
         var isTrueShop, valiableshop;
