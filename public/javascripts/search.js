@@ -40,7 +40,8 @@ $(document).ready(function() {
             {"name": "aiq89999", "where": "三级代理"},
             {"name": "bao4455667788", "where": "三级代理"},
             {"name": "13721296968", "where": "安徽总代理"},
-            {"name": "chijiuai1314", "where": "一级代理"}
+            {"name": "chijiuai1314", "where": "一级代理"},
+            {"name": "beibei995566", "where": "运营总部"}
         ];
 
         var isTrueShop, valiableshop;
