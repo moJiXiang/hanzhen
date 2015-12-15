@@ -43,7 +43,10 @@ $(document).ready(function() {
             {"name": "chijiuai1314", "where": "一级代理"},
             {"name": "beibei995566", "where": "运营总部"},
             {"name": "ydsy116114", "where": "一级代理"},
-            {"name": "A_1612604272", "where": "分销"}
+            {"name": "A_1612604272", "where": "分销"},
+            {"name": "ting085688", "where": "分销"},
+            {"name": "yangzeming03", "where": "分销"},
+            {"name": "Cy15996544001", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;
