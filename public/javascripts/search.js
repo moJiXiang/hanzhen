@@ -46,7 +46,10 @@ $(document).ready(function() {
             {"name": "A_1612604272", "where": "分销"},
             {"name": "ting085688", "where": "分销"},
             {"name": "yangzeming03", "where": "分销"},
-            {"name": "Cy15996544001", "where": "分销"}
+            {"name": "Cy15996544001", "where": "分销"},
+            {"name": "738168104", "where": "分销"},
+            {"name": "h2695525776", "where": "一级代理"},
+            {"name": "a83482000", "where": "一级代理"}
         ];
 
         var isTrueShop, valiableshop;
