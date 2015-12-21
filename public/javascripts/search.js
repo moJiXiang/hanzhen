@@ -49,7 +49,8 @@ $(document).ready(function() {
             {"name": "Cy15996544001", "where": "分销"},
             {"name": "738168104", "where": "分销"},
             {"name": "h2695525776", "where": "一级代理"},
-            {"name": "a83482000", "where": "一级代理"}
+            {"name": "a83482000", "where": "一级代理"},
+            {"name": "13006549271", "where": "福建总代理"}
         ];
 
         var isTrueShop, valiableshop;
