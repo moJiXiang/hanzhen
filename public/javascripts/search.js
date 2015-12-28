@@ -53,7 +53,8 @@ $(document).ready(function() {
             {"name": "C13006546271", "where": "福建总代理"},
             {"name": "jianghuld111", "where": "分销"},
             {"name": "wbt-12", "where": "分销"},
-            {"name": "mq223438", "where": "二级代理"}
+            {"name": "mq223438", "where": "二级代理"},
+            {"name": "a5633365", "where": "内蒙古总代理"}
         ];
 
         var isTrueShop, valiableshop;
