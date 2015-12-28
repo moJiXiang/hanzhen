@@ -50,9 +50,10 @@ $(document).ready(function() {
             {"name": "738168104", "where": "分销"},
             {"name": "h2695525776", "where": "一级代理"},
             {"name": "a83482000", "where": "一级代理"},
-            {"name": "13006549271", "where": "福建总代理"},
+            {"name": "C13006546271", "where": "福建总代理"},
             {"name": "jianghuld111", "where": "分销"},
-            {"name": "wbt-12", "where": "分销"}
+            {"name": "wbt-12", "where": "分销"},
+            {"name": "mq223438", "where": "二级代理"}
         ];
 
         var isTrueShop, valiableshop;
