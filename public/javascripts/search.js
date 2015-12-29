@@ -54,7 +54,9 @@ $(document).ready(function() {
             {"name": "jianghuld111", "where": "分销"},
             {"name": "wbt-12", "where": "分销"},
             {"name": "mq223438", "where": "二级代理"},
-            {"name": "a5633365", "where": "内蒙古总代理"}
+            {"name": "a5633365", "where": "内蒙古总代理"},
+            {"name": "a13827755196", "where": "一级代理"},
+            {"name": "610775777", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;
