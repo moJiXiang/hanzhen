@@ -56,7 +56,10 @@ $(document).ready(function() {
             {"name": "mq223438", "where": "二级代理"},
             {"name": "a5633365", "where": "内蒙古总代理"},
             {"name": "a13827755196", "where": "一级代理"},
-            {"name": "610775777", "where": "分销"}
+            {"name": "xu647890960", "where": "分销"},
+            {"name": "seyou000", "where": "分销"},
+            {"name": "fang928158462", "where": "分销"},
+            {"name": "licong_136213360", "where": "二级代理"}
         ];
 
         var isTrueShop, valiableshop;
