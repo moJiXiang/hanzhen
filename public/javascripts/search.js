@@ -62,7 +62,9 @@ $(document).ready(function() {
             {"name": "licong_136213360", "where": "二级代理"},
             {"name": "WKFC1122", "where": "分销"},
             {"name": "shenaijun1022", "where": "分销"},
-            {"name": "610775777", "where": "分销"}
+            {"name": "610775777", "where": "分销"},
+            {"name": "w1234ABCD20", "where": "分销"},
+            {"name": "kr5254934", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;
