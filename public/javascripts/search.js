@@ -64,7 +64,8 @@ $(document).ready(function() {
             {"name": "shenaijun1022", "where": "分销"},
             {"name": "610775777", "where": "分销"},
             {"name": "w1234ABCD20", "where": "分销"},
-            {"name": "kr5254934", "where": "分销"}
+            {"name": "kr5254934", "where": "分销"},
+            {"name": "aaa2252713613", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;
