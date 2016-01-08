@@ -65,7 +65,11 @@ $(document).ready(function() {
             {"name": "610775777", "where": "分销"},
             {"name": "w1234ABCD20", "where": "分销"},
             {"name": "kr5254934", "where": "分销"},
-            {"name": "aaa2252713613", "where": "分销"}
+            {"name": "aaa2252713613", "where": "分销"},
+            {"name": "lolddgzs", "where": "湖北总代理"},
+            {"name": "YIU2580", "where": "分销"},
+            {"name": "derjump", "where": "安徽总代理"},
+            {"name": "jiajia-6680", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;

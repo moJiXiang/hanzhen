@@ -17,6 +17,10 @@ router.get('/agentsearch', function(req, res) {
   res.render('agentsearch');
 });
 
+router.get('/cms', function(req, res) {
+    res.render('cms');
+})
+
 // router.post('/agentsearch', function(req, res) {
 //     var name = req.body.name
 //     var valiableshops = ['wypmm1111']
