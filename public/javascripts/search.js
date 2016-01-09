@@ -69,7 +69,8 @@ $(document).ready(function() {
             {"name": "lolddgzs", "where": "湖北总代理"},
             {"name": "YIU2580", "where": "分销"},
             {"name": "derjump", "where": "安徽总代理"},
-            {"name": "jiajia-6680", "where": "分销"}
+            {"name": "jia-jia6680", "where": "分销"},
+            {"name": "longnvguoji", "where": "分销"}
         ];
 
         var isTrueShop, valiableshop;
