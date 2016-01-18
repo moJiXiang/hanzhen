@@ -26,7 +26,6 @@ $(document).ready(function() {
             {"name": "xiefei0716", "where": "河北总代理"},
             {"name": "xqt17888", "where": "山西总代理"},
             {"name": "yesemei1234", "where": "官方运营"},
-            {"name": "ff1222w", "where": "官方运营"},
             {"name": "ysm5216688", "where": "官方运营"},
             {"name": "wypmm111", "where": "山东总代理"},
             {"name": "18776799999", "where": "广西总代理"},
