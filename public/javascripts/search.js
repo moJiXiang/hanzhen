@@ -82,8 +82,6 @@ $(document).ready(function() {
                 valiableshop = obj;
             }
         })
-        console.log(isTrueShop)
-        console.log(valiableshop);
         return {isTrueShop: isTrueShop, valiableshop: valiableshop};
     }
 })
