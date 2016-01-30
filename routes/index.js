@@ -1,5 +1,7 @@
 var express = require('express');
 var router = express.Router();
+var sqlite3 = require('sqlite3').verbose();
+var db = new sqlite3.Database("abcd");
 
 /* GET home page. */
 router.get('/', function(req, res) {
@@ -17,10 +19,29 @@ router.get('/agentsearch', function(req, res) {
   res.render('agentsearch');
 });
 
+
+var requireAuthentication = function(req, res) {
+    var username = req.body.username;
+    var password = req.body.password;
+    res.render('login');
+}
+
+// router.all('/cms', requireAuthentication);
+// 查询数据库
 router.get('/cms', function(req, res) {
-    res.render('cms');
+    var users = [];
+    db.each("SELECT id, dt FROM user", function(err, row) {
+        users.push(row.dt);
+    }, function() {
+        console.log(users);
+        res.render('cms');
+    })
 })
 
+// 添加数据
+router.post('/cms', function(req, res) {
+
+})
 // router.post('/agentsearch', function(req, res) {
 //     var name = req.body.name
 //     var valiableshops = ['wypmm1111']
