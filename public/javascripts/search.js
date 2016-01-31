@@ -71,7 +71,8 @@ $(document).ready(function() {
             {"name": "jia-jia6680", "where": "分销"},
             {"name": "longnvguoji", "where": "分销"},
             {"name": "hua15621733387", "where": "分销"},
-            {"name": "zhsmAc111", "where": "分销"}
+            {"name": "zhsmAc111", "where": "分销"},
+            {"name": "g287046466", "where": "一级代理"}
         ];
 
         var isTrueShop, valiableshop;
