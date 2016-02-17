@@ -72,7 +72,12 @@ $(document).ready(function() {
             {"name": "longnvguoji", "where": "分销"},
             {"name": "hua15621733387", "where": "分销"},
             {"name": "zhsmAc111", "where": "分销"},
-            {"name": "g287046466", "where": "一级代理"}
+            {"name": "g287046466", "where": "一级代理"},
+            {"name": "aini520-1314y", "where": "分销"},
+            {"name": "xgxy13144", "where": "西藏总代理"},
+            {"name": "S2695525776", "where": "四川总代理"},
+            {"name": "saner-1688888", "where": "三级代理"},
+            {"name": "A13963029559", "where": "云南总代理"}
         ];
 
         var isTrueShop, valiableshop;
