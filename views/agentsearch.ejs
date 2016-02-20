@@ -9,11 +9,28 @@
         <div class="agentsearch">
             <div>
                 <input type="text" class="inputtext" id="agent" placeholder="输入授权网店微信号">
-                <input type="submit" class="searchbtn" value="" id="searchbtn">
+                <input type="button" class="searchbtn" value="" id="searchbtn">
             </div>
         </div>
     </main>
     <% include ./partials/footer.ejs %>
   </body>
-  <script src="/javascripts/search.js"></script>
+  <!-- <script src="/javascripts/search.js"></script> -->
+  <script type="text/javascript">
+      $('#searchbtn').click(function () {
+          var name = $('#agent').val();
+          $.ajax({
+              url: '/agentsearch',
+              data: {"name": name},
+              type: 'post',
+              success: function(result) {
+                  if(result.length> 0) {
+                      alert(result[0].name + '  为汉珍御典中式男露'+ result[0].wheres +'。');
+                  } else {
+                      alert(name + '  非汉珍御典中式男露代理，请谨慎购买其产品!');
+                  }
+              }
+          })
+      })
+  </script>
 </html>
