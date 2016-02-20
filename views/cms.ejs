@@ -27,7 +27,7 @@
                             <td><%= agents[i].id %></td>
                             <td><%= agents[i].name %></td>
                             <td><%= agents[i].wheres %></td>
-                            <td><button class="btn" id="delAgent" data-aid="<%= agents[i].id %>">删除</button></td>
+                            <td><button class="btn delAgent" data-aid="<%= agents[i].id %>">删除</button></td>
                     </tr>
                 <% } %>
             </tbody>
@@ -54,7 +54,7 @@
     </div>
 </body>
 <script type="text/javascript">
-    $('#delAgent').click(function() {
+    $('.delAgent').on("click", function() {
         var aid = $(this).data('aid');
         console.log(aid);
         $.ajax({
