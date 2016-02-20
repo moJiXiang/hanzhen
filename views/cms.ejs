@@ -55,6 +55,7 @@
 </body>
 <script type="text/javascript">
     $('.delAgent').on("click", function() {
+        var _this = $(this);
         var aid = $(this).data('aid');
         console.log(aid);
         $.ajax({
@@ -63,6 +64,7 @@
             type: "DELETE",
             success: function() {
                 console.log("success");
+                _this.parent().parent().remove();
             }
         })
     })
