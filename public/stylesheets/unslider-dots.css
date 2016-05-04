@@ -38,16 +38,16 @@
     z-index: 2;
     cursor: pointer;
 }
-.unslider-arrow.next {
-    left: auto;
-    right: 20px;
-    /*background-position: -70px -31px;*/
-}
 .unslider-arrow.prev {
     /*background-position: -10px -31px;*/
     right: auto;
     -ms-transform: rotate(-180deg);
     transform: rotate(-180deg);
+}
+.unslider-arrow.next {
+  left: auto;
+  right: 20px;
+  /*background-position: -70px -31px;*/
 }
 .unslider-arrow {
     display: block;
