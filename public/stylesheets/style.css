@@ -181,3 +181,7 @@ main {
     display: inline-block;
     text-indent: 100px;
 }
+
+.banner { position: relative; overflow: auto; }
+    .banner li { list-style: none; }
+        .banner ul li { float: left; }

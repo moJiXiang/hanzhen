@@ -5,9 +5,26 @@
   </head>
   <body>
     <% include ./partials/header.ejs %>
-    <main>
+    <!-- <main>
         <img src="/images/index.jpg" alt="">
-    </main>
+        <img src="/images/jl12chai.png" alt="">
+    </main> -->
+    <div class="banner">
+      <ul>
+        <li><img src="/images/index.jpg" alt=""></li>
+        <li><img src="/images/jl12chai.png" alt=""></li>
+      </ul>
+    </div>
+    <!-- <div class="banner">
+        <ul><li>This is my slider.</li><li>Pretty cool, huh?</li></ul>
+    </div> -->
+
     <% include ./partials/footer.ejs %>
   </body>
+  <script src="/javascripts/unslider-min.js"></script>
+  <script>
+    $(function() {
+      $('.banner').unslider();
+    });
+  </script>
 </html>
