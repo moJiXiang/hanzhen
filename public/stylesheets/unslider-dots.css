@@ -15,7 +15,7 @@
   list-style: none;
   text-align: center;
 }
-.unslider-nav ol li {
+/*.unslider-nav ol li {
   display: inline-block;
   width: 6px;
   height: 6px;
@@ -26,9 +26,17 @@
   text-indent: -999em;
   border: 2px solid #fff;
   cursor: pointer;
+}*/
+.unslider-nav ol li {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: #fff;
+  cursor: pointer;
 }
 .unslider-nav ol li.unslider-active {
-  background: #fff;
+  background: #ccc;
   cursor: default;
 }
 
