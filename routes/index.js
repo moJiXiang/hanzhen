@@ -14,6 +14,10 @@ router.get('/product', function(req, res) {
   res.render('product');
 });
 
+router.get('/jl12chai', function(req, res) {
+  res.locals.label = 'product';
+  res.render('jl12chai');
+});
 router.get('/agentsearch', function(req, res) {
     res.locals.label = 'agentsearch';
   res.render('agentsearch');
